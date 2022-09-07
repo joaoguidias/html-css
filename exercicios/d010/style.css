@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(idroid.otf);
+}
+body{
+    background-color:#ebe5c5;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(47, 100, 47);
+    
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.418);
+}   
+header > p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.452);
+}
+header{
+    background-image: linear-gradient(to top, rgb(33, 71, 33),  rgb(144, 221, 144));
+    height: 200px;
+    margin:0;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.473);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 1079px;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.459);
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+}
+h2.estilo{
+    color:rgb(47, 100, 47) ;
+    background-image: linear-gradient(to right, rgb(144, 221, 144), white);
+}
+footer{
+    background-color: rgb(47, 100, 47) ;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+footer > p { 
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+div{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+
+}
+mark > a{
+    background-color:rgb(144, 221, 144);
+    color:rgb(47, 100, 47) ;
+    font-weight: bold;
+    
+}
+div.video{
+    background-color: rgb(6 61 30);
+    padding: 20px;
+    margin: -15px;
+    margin-top: 25px;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+ul{ 
+    text-align: justify;
+    columns: 2;
+    font-weight:500;
+    font-size: 1.17em;
+}
+div#lista > h3{
+    background-color: rgb(26 92 55) ;
+    color: white;
+    text-align: justify;
+    padding: 8px;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 1.17em;
+    
+
+}
+div#lista{
+    background-color: rgb(131 225 173);
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.459);
+
+}
+div#lista > p{
+    font-size: 1.2em;
+    padding: 10px;
+    text-indent: 20px;
+}
