@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('idroid.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+
+}
+header{
+    height: 270px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.384);
+}
+header > h1{
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+    font-family: var(--fonte-destaque);
+
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+    font-family: var(--fonte-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
+    font-weight: bold;
+    margin-bottom: 57px;
+}
+nav{
+    padding: 10px;
+}
+nav > a{
+    color:var(--cor1);
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor4);
+    border-radius: 8px;
+}
+body{
+    background-color: var(--cor0);
+
+}
+main{
+    width: 1100px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.466);
+}
+h1{
+    font-size: 1.8em;
+    font-family: var(--fonte-android);
+    color: var(--cor5);
+    margin-bottom: 13px;
+}
+p{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 15px;
+}
+h2.titulo{
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
