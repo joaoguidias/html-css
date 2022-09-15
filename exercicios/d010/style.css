@@ -89,3 +89,12 @@ h2.titulo{
     padding-left: 5px;
     margin-bottom: 20px;
 }
+strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+a > main{
+    background-color: var(--cor1);
+    color: #063d1e;
+    font-weight: bolder;
+}
