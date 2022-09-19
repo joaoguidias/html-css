@@ -69,6 +69,9 @@ main{
     padding: 15px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.466);
 }
+main p{
+    
+}
 h1{
     font-size: 1.8em;
     font-family: var(--fonte-android);
@@ -93,8 +96,10 @@ strong{
     color: var(--cor4);
     font-weight: bold;
 }
-a > main{
-    background-color: var(--cor1);
-    color: #063d1e;
+p > a{
+    text-decoration: none;
+    color: var(--cor5);
     font-weight: bolder;
+    background-color: var(--cor1);
+    padding: 2px 6px;
 }
