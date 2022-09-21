@@ -28,6 +28,7 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    margin-bottom: 25px;
 }
 header > h1{
     font-size: 4em;
@@ -40,4 +41,37 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+section{
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+section > p{
+    line-height: 2em;
+    font-family: var(--font3);
+    font-size: 2.5em;
+}
+section.normal{
+    
+
+}
+section.imagem{
+    background-color: rgb(102, 101, 101);
+    
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 400px;
+    color: white;
+    background-attachment: fixed;
+}
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right bottom;
+    background-size: cover;
 }
