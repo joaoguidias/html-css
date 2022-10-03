@@ -8,14 +8,12 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="POST">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome: </label>
+        <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
-            <p><label for="iemail">Email:</label> 
-                <input type="text" name="email" id="iemail"></p>
-        <input type="submit" value="Enviar"><!--Quando clicar em enviar, vai mandar para o action(cadastro.php)-->
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
