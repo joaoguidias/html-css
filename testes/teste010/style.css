@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 220, 226);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    width: 1000px;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.322);
+}
+main  p { 
+    line-height: 29px;
+    text-align: justify;
+    text-indent: 8px;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 13px;
+}
+header{
+    background-color: rgb(182, 3, 182);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.322);
+} 
+header > h1{
+    margin-bottom: 15px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    text-align: left;
+    background-color: darkblue;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    padding: 12px;
+    
+}
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+aside{
+    position: absolute;
+    left: 1050px;
+    top: 165px;
+    background-color: white;
+    width: 350px;
+    height: 170px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    
+}
+aside > p {
+    font-size: 14px;
+}
+footer{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+footer  a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    transition: text-decoration 0.5s;
+}
+
