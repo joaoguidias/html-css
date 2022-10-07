@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2e2e2e;
+}
+section{
+    background-color: white;
+    padding: 30px 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    max-width: 70vw;
+}
+section h1{
+    padding: 40px 10px;
+    text-align: center;
+}
+fieldset{
+    border: none;
+}
+fieldset:nth-child(2){
+    display: flex;
+    
+}
+fieldset:nth-child(4){
+    display: flex;
+    padding-top: 20px;
+}
+fieldset:nth-child(5){
+    
+}

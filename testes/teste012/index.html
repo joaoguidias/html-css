@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section>
+        <h1>Crie sua conta</h1>
+        <form action="cadastro.php" method="post">
+            <fieldset>
+                <div class="container">
+
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required>
+                </div>
+                <div class="container">
+                    <label for="isobre">Sobrenome</label>
+                    <input type="text" name="sobre" id="isobre" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="container">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="container">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" required>
+                </div>
+
+                <div class="container">
+                    <label for="iconfirm">Confirmar senha</label>
+                    <input type="password" name="confirm" id="iconfirm" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div id="check">
+                    <label for="iaccept">Aceitar termos de uso</label>
+                    <input type="checkbox" name="accept" id="iaccept">
+                </div>
+
+                <button>Criar conta</button>
+            </fieldset>
+
+            <a href="#">Ler termos de uso</a>
+        </form>
+    </section>
+</body>
+</html>
